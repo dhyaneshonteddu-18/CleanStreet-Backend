@@ -21,7 +21,7 @@ async (
     const image =
     req.file
     ?
-    `http://localhost:3000/uploads/${req.file.filename}`
+    `https://cleanstreet-backend.onrender.com/uploads/${req.file.filename}`
     :
     '';
 
